@@ -9,6 +9,7 @@ It has been suggested by Intel to consider disabling Hyperthreading due to bugs 
     - [VMs](#vms)
 - [Test 1 - Phoronix Test Suite - pybench and openssl](#test-1---phoronix-test-suite---pybench-and-openssl)
 - [Test 2 - Sysbench Multithreaded Prime Benchmark](#test-2---sysbench-multithreaded-prime-benchmark)
+- [Test 3 - Phoronix PGBench Benchmarks](#test-3---phoronix-pgbench-benchmarks)
 - [Results](#results)
 
 <!-- /MarkdownTOC -->
@@ -38,17 +39,27 @@ It has been suggested by Intel to consider disabling Hyperthreading due to bugs 
 ## [Test 1 - Phoronix Test Suite - pybench and openssl](test_1_phoronix_pybench_openssl.md)
 
 - First test: Single VM, HT on
-- Second test: Two VMs, HT on (run at the same time using `tmux-cssh -sc vm1 vm2`)
+- Second test: Two VMs, HT on
 - Third test: Single VM, HT off
-- Fourth Test: Two VMs, HT off (run at the same time using `tmux-cssh -sc vm1 vm2`)
+- Fourth Test: Two VMs, HT off
 
 <a id="test-2---sysbench-multithreaded-prime-benchmark"></a>
 ## [Test 2 - Sysbench Multithreaded Prime Benchmark](hyperthreading_impact/test_2_sysbench_prime.md)
 
 - First test: Single VM, HT on
-- Second test: Two VMs, HT on (run at the same time using `tmux-cssh -sc vm1 vm2`)
+- Second test: Two VMs, HT on
 - Third test: Single VM, HT off
-- Fourth Test: Two VMs, HT off (run at the same time using `tmux-cssh -sc vm1 vm2`)
+- Fourth Test: Two VMs, HT off
+
+<a id="test-3---phoronix-pgbench-benchmarks"></a>
+## [Test 3 - Phoronix PGBench Benchmarks](test_3_phoronix_pgbench.md)
+
+**WORK IN PROGRESS**
+
+- First test: Single VM, HT on
+- Second test: Two VMs, HT on
+- Third test: Single VM, HT off
+- Fourth Test: Two VMs, HT off
 
 <a id="results"></a>
 # Results
