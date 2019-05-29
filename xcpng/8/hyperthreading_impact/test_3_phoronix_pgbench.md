@@ -2,7 +2,6 @@
 
 <!-- MarkdownTOC -->
 
-- [Results](#results)
 - [Test Command](#test-command)
     - [Phoronix Test Suite VM Information Output](#phoronix-test-suite-vm-information-output)
     - [First test: Single VM, HT on](#first-test-single-vm-ht-on)
@@ -12,11 +11,6 @@
 - [Performance Impact of Disabling Hyperthreading](#performance-impact-of-disabling-hyperthreading)
 
 <!-- /MarkdownTOC -->
-
-<a id="results"></a>
-# Results
-
-- **WORK IN PROGRESS**
 
 <a id="test-command"></a>
 # Test Command
@@ -91,6 +85,8 @@ System Information
 
 <a id="first-test-single-vm-ht-on"></a>
 ## First test: Single VM, HT on
+
+- **WORK IN PROGRESS**
 
 ```
 
