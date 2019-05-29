@@ -2,6 +2,8 @@
 
 It has been suggested by Intel to consider disabling Hyperthreading due to bugs in their CPU designs when running sensitive workloads.
 
+The heading for each test links to the test method and results.
+
 <!-- MarkdownTOC -->
 
 - [Test conditions:](#test-conditions)
@@ -54,8 +56,6 @@ It has been suggested by Intel to consider disabling Hyperthreading due to bugs 
 <a id="test-3---phoronix-pgbench-benchmarks"></a>
 ## [Test 3 - Phoronix PGBench Benchmarks](test_3_phoronix_pgbench.md)
 
-**WORK IN PROGRESS**
-
 - First test: Single VM, HT on
 - Second test: Two VMs, HT on
 - Third test: Single VM, HT off
@@ -65,4 +65,5 @@ It has been suggested by Intel to consider disabling Hyperthreading due to bugs 
 # Results
 
 - **Significant performance decrease (38.7725%) when running multithreaded Sysbench CPU benchmarks on multiple VM when hyperthreading is disabled.**
+- **Significant performance decrease (16.96%) when running PGBench under 'normal' load benchmarks in parallel on two VMs when hyperthreading is disabled.**
 - No significant performance decrease when running Phoronix Test Suite's Pybench and OpenSSL benchmarks in parallel across two VMs when hyperthreading is disabled.
