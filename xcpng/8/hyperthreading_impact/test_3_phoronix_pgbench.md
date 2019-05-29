@@ -100,16 +100,55 @@ System Information
 ## Second test: Two VMs, HT on
 
 ```
+phoronix pgbench 242 HT on:
+        Processor: 2 x Intel Xeon E5-2690 v4 (32 Cores), Motherboard: Xen HVM domU (4.11.1-7.3.xcpng8.0 BIOS), Chipset: Intel 440FX 82441FX PMC, Memory: 16384 MB + 16376 MB RAM, Disk: 10GB, Graphics: DRM emulated
+        OS: CentOS Linux 7, Kernel: 5.1.5-1.el7.elrepo.x86_64 (x86_64), Compiler: GCC 4.8.5 20150623, File-System: ext4, Screen Resolution: 1024x768, System Layer: Xen HVM domU 4.11.1-7.3.xcpng8.0
 
+    PostgreSQL pgbench 10.3
+    Scaling: Mostly RAM - Test: Normal Load - Mode: Read Only
+    TPS > Higher Is Better
+    phoronix pgbench 242 HT on . 244195|=================================================================================================================================================
+
+    PostgreSQL pgbench 10.3
+    Scaling: Mostly RAM - Test: Single Thread - Mode: Read Only
+    TPS > Higher Is Better
+    phoronix pgbench 242 HT on . 17783|==================================================================================================================================================
+
+    PostgreSQL pgbench 10.3
+    Scaling: Mostly RAM - Test: Heavy Contention - Mode: Read Only
+    TPS > Higher Is Better
+    phoronix pgbench 242 HT on . 328503|=================================================================================================================================================
 ```
 
-```
+- Results Uploaded To: https://openbenchmarking.org/result/1905298-HV-PHORONIXP44
 
 ```
+phoronix pgbench 242 HT on:
+        Processor: 2 x Intel Xeon E5-2690 v4 (32 Cores), Motherboard: Xen HVM domU (4.11.1-7.3.xcpng8.0 BIOS), Chipset: Intel 440FX 82441FX PMC, Memory: 16384 MB + 16376 MB RAM, Disk: 10GB, Graphics: DRM emulated
+        OS: CentOS Linux 7, Kernel: 5.1.5-1.el7.elrepo.x86_64 (x86_64), Compiler: GCC 4.8.5 20150623, File-System: ext4, Screen Resolution: 1024x768, System Layer: Xen HVM domU 4.11.1-7.3.xcpng8.0
 
-- Total combined TPS - Normal Load - Mode: Read Only: **TBC**
-- Total combined TPS - Single Thread - Mode: Read Only: **TBC**
-- Total combined TPS - Heavy Contention - Mode: Read Only: **TBC**
+    PostgreSQL pgbench 10.3
+    Scaling: Mostly RAM - Test: Normal Load - Mode: Read Only
+    TPS > Higher Is Better
+    phoronix pgbench 242 HT on . 246688|=================================================================================================================================================
+
+    PostgreSQL pgbench 10.3
+    Scaling: Mostly RAM - Test: Single Thread - Mode: Read Only
+    TPS > Higher Is Better
+    phoronix pgbench 242 HT on . 16927|==================================================================================================================================================
+
+    PostgreSQL pgbench 10.3
+    Scaling: Mostly RAM - Test: Heavy Contention - Mode: Read Only
+    TPS > Higher Is Better
+    phoronix pgbench 242 HT on . 331614|=================================================================================================================================================
+```
+
+-  Results Uploaded To: https://openbenchmarking.org/result/1905298-HV-PHORONIXP57
+
+
+- Total combined TPS - Normal Load - Mode: Read Only: **490,883**
+- Total combined TPS - Single Thread - Mode: Read Only: **34,710**
+- Total combined TPS - Heavy Contention - Mode: Read Only: **660,117**
 
 <a id="third-test-single-vm-ht-off"></a>
 ## Third test: Single VM, HT off
@@ -196,5 +235,6 @@ phoronix pgbench 242 HT off:
 <a id="performance-impact-of-disabling-hyperthreading"></a>
 # Performance Impact of Disabling Hyperthreading
 
-- **TBC**% difference
-
+- Total combined TPS - Normal Load - Mode: Read Only - Performance difference with with HT disabled: **16.96% decrease**
+- Total combined TPS - Single Thread - Mode: Read Only - Performance difference with HT disabled: **2.8% decrease**
+- Total combined TPS - Heavy Contention - Mode: Read Only - DPerformance difference with HT disabled: **3.94 increase**
