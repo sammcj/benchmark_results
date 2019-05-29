@@ -237,4 +237,4 @@ phoronix pgbench 242 HT off:
 
 - Total combined TPS - Normal Load - Mode: Read Only - Performance difference with with HT disabled: **16.96% decrease**
 - Total combined TPS - Single Thread - Mode: Read Only - Performance difference with HT disabled: **2.8% decrease**
-- Total combined TPS - Heavy Contention - Mode: Read Only - DPerformance difference with HT disabled: **3.94 increase**
+- Total combined TPS - Heavy Contention - Mode: Read Only - DPerformance difference with HT disabled: **3.94% _increase_**
