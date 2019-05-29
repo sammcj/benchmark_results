@@ -115,8 +115,27 @@ System Information
 ## Third test: Single VM, HT off
 
 ```
+phoronix pgbench 242 HT off single vm:
+        Processor: 2 x Intel Xeon E5-2690 v4 (32 Cores), Motherboard: Xen HVM domU (4.11.1-7.3.xcpng8.0 BIOS), Chipset: Intel 440FX 82441FX PMC, Memory: 16384 MB + 16376 MB RAM, Disk: 10GB, Graphics: DRM emulated
+        OS: CentOS Linux 7, Kernel: 5.1.5-1.el7.elrepo.x86_64 (x86_64), Compiler: GCC 4.8.5 20150623, File-System: ext4, Screen Resolution: 1024x768, System Layer: Xen HVM domU 4.11.1-7.3.xcpng8.0
 
+    PostgreSQL pgbench 10.3
+    Scaling: Mostly RAM - Test: Normal Load - Mode: Read Only
+    TPS > Higher Is Better
+    phoronix pgbench 242 HT off single vm . 347606|===========================================================================================================================================================================================================================================================================================================================================================
+
+    PostgreSQL pgbench 10.3
+    Scaling: Mostly RAM - Test: Single Thread - Mode: Read Only
+    TPS > Higher Is Better
+    phoronix pgbench 242 HT off single vm . 17920|============================================================================================================================================================================================================================================================================================================================================================
+
+    PostgreSQL pgbench 10.3
+    Scaling: Mostly RAM - Test: Heavy Contention - Mode: Read Only
+    TPS > Higher Is Better
+    phoronix pgbench 242 HT off single vm . 355463|===========================================================================================================================================================================================================================================================================================================================================================
 ```
+
+- Results Uploaded To: https://openbenchmarking.org/result/1905295-HV-PHORONIXP81
 
 <a id="fourth-test-two-vms-ht-off"></a>
 ## Fourth Test: Two VMs, HT off
