@@ -145,6 +145,7 @@ phoronix pgbench 242 HT on:
 
 -  Results Uploaded To: https://openbenchmarking.org/result/1905298-HV-PHORONIXP57
 
+--
 
 - Total combined TPS - Normal Load - Mode: Read Only: **490,883**
 - Total combined TPS - Single Thread - Mode: Read Only: **34,710**
@@ -225,6 +226,7 @@ phoronix pgbench 242 HT off:
 
 - Results Uploaded To: https://openbenchmarking.org/result/1905285-HV-PHORONIXP40
 
+--
 
 - Total combined TPS - Normal Load - Mode: Read Only: **407,633**
 - Total combined TPS - Single Thread - Mode: Read Only: **33,738**
