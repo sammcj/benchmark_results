@@ -3,7 +3,7 @@
 <!-- MarkdownTOC -->
 
 - [Test Command](#test-command)
-    - [Phoronix Test Suite VM Information Output](#phoronix-test-suite-vm-information-output)
+- [Phoronix Test Suite VM Information Output](#phoronix-test-suite-vm-information-output)
     - [First test: Single VM, HT on](#first-test-single-vm-ht-on)
     - [Second test: Two VMs, HT on](#second-test-two-vms-ht-on)
     - [Third test: Single VM, HT off](#third-test-single-vm-ht-off)
@@ -45,7 +45,8 @@ PostgreSQL pgbench 10.3:
 ```
 
 <a id="phoronix-test-suite-vm-information-output"></a>
-## Phoronix Test Suite VM Information Output
+# Phoronix Test Suite VM Information Output
+
 ```
 Phoronix Test Suite v8.8.0
 System Information
